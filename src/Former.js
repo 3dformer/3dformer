@@ -18,7 +18,9 @@ export default class Former extends React.Component {
       body: {
         background: 'url(img/background.png)',
         width: '100vw',
-        height: '100vh'
+        height: '100vh',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover'
       },
       content: {
         padding: '40px',
