@@ -39250,8 +39250,30 @@
 	  render: function render() {
 	    return _react2.default.createElement(
 	      'div',
-	      null,
-	      'Idea'
+	      { id: 'idea-container' },
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        ['Wir sind begeistert von der Idee der 3D Formen und des 3D Drucken.', 'Eine mögliche Welt ohne unnötige Transportwege, Lagerungskosten und Überproduktion von Dingen jeglicher Art.', 'Diese Zukunft wollen wir mit 3D Former.de mitgestalten. Dabei kommt es auf Dich an.', 'Jede 3D Form die Du erfunden und als Datei erstellt hast kannst Du in unserem 3D Katalog zeigen und anderen anbieten.', 'Mehr noch! Du hast einen 3D Drucker in Betrieb und siehst Dich in der Lage noch Leerzeiten des Druckers zu nutzen um 3D Formen aus dem Katalog zu drucken? '].join(' ')
+	      ),
+	      _react2.default.createElement('br', null),
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        ['Dann melde Dich einfach kostenfrei an und erstelle einen Eintrag mit Deinen 3D Formen!', 'Jede 3D Form kannst Du dann als Download anbieten und / oder auch direkt für Interessenten ausdrucken.'].join(' ')
+	      ),
+	      _react2.default.createElement('br', null),
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        ['Sofern Du „nur“ einen 3D Drucker in unser Portal einbringen möchtest, kannst Du diesen ebenfalls in einem Account anmelden und unserem Netzwerk von 3D Druckern anschließen.', 'Mit Blick auf die Leistung deines 3D Drucker wählst Du dann bereits eingetragene 3D Formen aus dem Katalog aus und bestimmst einen Preis für den Ausdruck.', 'Sofern dann aus dem Katalog ein Kunde einen Druckauftrag starten möchte kann er ggf. auf dein Angebot zurückkommen und Dich mit einem konkreten Druckauftrag einer 3D Form anfragen und buchen.'].join(' ')
+	      ),
+	      _react2.default.createElement('br', null),
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        ['In letzter Zeit nun sind Geräte auf dem Markt die 3D Drucken auch für den Hausgebrauch interessant machen.', 'Diese Geräte funktionieren zumeist nach dem FDM Verfahren.', 'Bei dieser Technologie werden verschiedene Kunststoff geschmolzen und schichtweise aufgebaut.', 'Hast Du einen 3D Drucker bereits in Betrieb oder planst die Anschaffung eines 3D Druckers.', 'Dann werden unser Partner und melde Dein Drucker bei uns an und erhalte Druckaufträge aus dem 3D Formen Katalog.'].join(' ')
+	      )
 	    );
 	  }
 	});
@@ -39277,8 +39299,24 @@
 	  render: function render() {
 	    return _react2.default.createElement(
 	      'div',
-	      null,
-	      'Reality'
+	      { id: 'reality-container' },
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        ['Die Rohstoffe für den 3D-Druck lassen sich deutlich leichter lagern und transportieren.', 'Ob Prototyp oder serielle Produktion. Es werden aktuell die Gegenstände gedruckt die auch tatsächlich gebraucht werden.', 'Lange Lagerzeiten oder überflüssige  Produktionen fallen weg.', '3D Drucker sind nun schon seit einigen Jahren im Einsatz.', 'Vornehmlich in der Industrie verwendet, können die 3D Drucker effizient Einzelbauteilen und Kleinserien anfertigen.', 'Dabei werden vornehmlich Techniken wie das Laserbrennen (sintern) und Laserschmelzen eingesetzt.'].join(' ')
+	      ),
+	      _react2.default.createElement('br', null),
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        ['Bei diesen Anfertigungen werden dünne Schichten von Metall- oder Keramik-Pulver zusammengeführt oder verschiedene Formen von flüssigem Kunststoff durch den Laser schichtweise ausgehärtet.'].join(' ')
+	      ),
+	      _react2.default.createElement('br', null),
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        ['In letzter Zeit nun sind Geräte auf dem Markt die 3D Drucken auch für den Hausgebrauch interessant machen.', 'Diese Geräte funktionieren zumeist nach dem FDM Verfahren.', 'Bei dieser Technologie werden verschiedene Kunststoff geschmolzen und schichtweise aufgebaut.', 'Hast Du einen 3D Drucker bereits in Betrieb oder planst die Anschaffung eines 3D Druckers. Dann werden unser Partner und melde Dein Drucker bei uns an und erhalte Druckaufträge aus dem 3D Formen Katalog.'].join(' ')
+	      )
 	    );
 	  }
 	});
@@ -39408,8 +39446,78 @@
 	  render: function render() {
 	    return _react2.default.createElement(
 	      'div',
-	      null,
-	      'AGBs'
+	      { id: 'agb-container' },
+	      _react2.default.createElement(
+	        'h4',
+	        null,
+	        ['Allgemeine Geschäftsbedingungen für Vermittlertätigkeit von 3D Objekten und 3D Druckaufträgen'].join(' ')
+	      ),
+	      _react2.default.createElement('br', null),
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        ['3D Former.de vermittelt im Namen des Interessenten die verzeichneten 3D Objekte an den Anbieter von 3D Druckerinhaber oder vermittelt 3D Modelle als Downlaod.'].join(' ')
+	      ),
+	      _react2.default.createElement('br', null),
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        ['1. Druckauftrag Anfragen'].join(' ')
+	      ),
+	      _react2.default.createElement('br', null),
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        ['1.1 Jeder Interessent kann sich aus dem 3D Formen Katalog Daten für 3D Objekt downloaden und oder drucken lassen.'].join(' ')
+	      ),
+	      _react2.default.createElement('br', null),
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        ['Aufträge für 3D Drucke können nur unbeschränkt geschäftsfähige natürliche Personen über 18 Jahren, juristische Personen oder Handelsgesellschaften vornehmen.'].join(' ')
+	      ),
+	      _react2.default.createElement('br', null),
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        ['2. Leistungen und Preise'].join(' ')
+	      ),
+	      _react2.default.createElement('br', null),
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        ['2.1 3D Former.de haftet nicht für Auskünfte und Leistungen der Anbieter im 3D Formen Katalog, sondern nur für eigene Vermittlungsfehler.', 'Für die Richtigkeit der Angaben, Objektbeschreibung in Text und Bild und Preis ist ausschließlich der 3D Formenverkäufer (Accountinhaber) verantwortlich und haftbar.', 'Die Haftung für leichte Fahrlässigkeit wird ausgeschlossen.'].join(' ')
+	      ),
+	      _react2.default.createElement('br', null),
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        ['3. Sonstige Bestimmungen'].join(' ')
+	      ),
+	      _react2.default.createElement('br', null),
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        ['3.2 Für Rechtsstreitigkeiten aus dem vorliegenden 3D Druckauftrag findet ausschließlich das Recht der Bundesrepublik Deutschland Anwendung.'].join(' ')
+	      ),
+	      _react2.default.createElement('br', null),
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        ['3.3 Der Auftraggeber kann 3D Former.de nur an deren Sitz verklagen.', 'In diesen Fällen ist der Sitz - Amtsgericht Berlin - maßgebend.'].join(' ')
+	      ),
+	      _react2.default.createElement('br', null),
+	      _react2.default.createElement(
+	        'p',
+	        null,
+	        ['Berlin, den 01.8.2015'].join(' ')
+	      ),
+	      _react2.default.createElement('br', null),
+	      _react2.default.createElement(
+	        'h5',
+	        null,
+	        ['3D Former.de'].join(' ')
+	      )
 	    );
 	  }
 	});
