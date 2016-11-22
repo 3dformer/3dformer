@@ -13,6 +13,7 @@ export default React.createClass({
   onChangeLanguage(language) {
     const path = location.hash.replace(`#/${this.props.language}`, '')
     location.hash = language + path
+    localStorage.setItem('language', language)
   },
   render() {
     return (

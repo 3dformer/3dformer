@@ -18,7 +18,8 @@ import Terms      from './modules/Terms.jsx'
 
 const appHistory = useRouterHistory(createHashHistory)({ queryKey: false })
 
-const language = 'en'
+const browserLang = (navigator.language || navigator.userLanguage).split('-')[0]
+const language = localStorage.getItem('language') || browserLang
 
 // Initialize Firebase
 // const config = {
