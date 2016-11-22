@@ -1,0 +1,72 @@
+{
+  "debug": {
+    "coming": "Coming Soon"
+  },
+  "navigation": {
+    "home": "Home",
+    "signin": "Sign In",
+    "signup": "Sign Up",
+    "idea": "Idea",
+    "reality": "Reality",
+    "impressum": "Impressum",
+    "contact": "Contact",
+    "terms": "Terms of Service"
+  },
+  "home": {
+    "header": "Search and print 3D models",
+    "search": "Search"
+  },
+  "login": {
+    "title": "Sign In with username and password",
+    "google": "Sign in with Google",
+    "facebook": "Sign in with Facebook",
+    "twitter": "Sign in with Twitter",
+    "github": "Sign in with GitHub",
+    "username": "Username",
+    "password": "Password",
+    "signin": "Sign In",
+    "noAccount": "Dont have an account?",
+    "signupNow": "sign up now for free"
+  },
+  "idea": {
+    "title": "Idea",
+    "content": [
+      "Content has not been translated yet.",
+      "",
+      "Please refer to the German version of this page."
+    ]
+  },
+  "reality": {
+    "title": "Reality",
+    "content": [
+      "Content has not been translated yet.",
+      "",
+      "Please refer to the German version of this page."
+    ]
+  },
+  "impressum": {
+    "title": "Impressum",
+    "nico": {
+      "name": "Nico Berndt",
+      "phone": "+49 (0)176 642 63 908",
+      "email": "berndt@3dformer.net"
+    },
+    "pepe": {
+      "name": "Pepe Becker",
+      "phone": "+49 (0)176 433 13 884",
+      "email": "pepe@3dformer.net"
+    },
+    "street": "Corinerstraße 64 10435 Berlin"
+  },
+  "contact": {
+    "title": "Contact"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "content": [
+      "Content has not been translated yet.",
+      "",
+      "Please refer to the German version of this page."
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300')
+@import url('https://fonts.googleapis.com/css?family=Roboto:300')
+@import 'header.styl'
+@import 'dropdown.styl'
+@import 'home.styl'
+@import 'login.styl'
+@import 'impressum.styl'
+@import 'footer.styl'
+
+header-height = 80px
+footer-height = 60px
+
+*
+  font-family: 'Roboto', sans-serif
+  padding: 0
+  margin: 0
+
+body
+  background: #e74c3c
+
+input:focus
+  outline: none
+
+#content
+  background: url('../images/background.png')
+  background-repeat: no-repeat
+  background-size: cover
+  background-attachment: fixed;
+  padding: 40px
+  width: 100vw
+  min-height: "calc(100vh - %s)" % (header-height + footer-height)
+
+.container
+  max-width: 800px
+  margin: auto
+  text-align: center
+
+.white-container
+  background: rgba(255, 255, 255, 0.5)
+  border-radius: 20px
+  padding: 20px
+  text-align: justify
+  max-width: 800px
+  margin: auto
+  h5
+    font-weight: bold
+    text-align: justify

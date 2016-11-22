@@ -1,0 +1,117 @@
+{
+  "debug": {
+    "coming": "Demnächst"
+  },
+  "navigation": {
+    "home": "Start",
+    "signin": "Anmelden",
+    "signup": "Registrieren",
+    "idea": "Idee",
+    "reality": "Wirklichkeit",
+    "impressum": "Impressum",
+    "contact": "Kontakt",
+    "terms": "AGBs"
+  },
+  "home": {
+    "header": "3D Formen suchen und drucken lassen",
+    "search": "Suchen"
+  },
+  "login": {
+    "title": "Anmelden mit Benutzername und Passwort",
+    "google": "Mit Google Anmelden",
+    "facebook": "Mit Facebook Anmelden",
+    "twitter": "Mit Twitter Anmelden",
+    "github": "Mit GitHub Anmelden",
+    "username": "Benutzername",
+    "password": "Passwort",
+    "signin": "Anmelden",
+    "noAccount": "Du hast noch keinen Account?",
+    "signupNow": "jetzt kostenlos registrieren"
+  },
+  "idea": {
+    "title": "Idee",
+    "content": [
+      "Wir sind begeistert von der Idee der 3D Formen und des 3D Drucken.",
+      "Eine mögliche Welt ohne unnötige Transportwege, Lagerungskosten und Überproduktion von Dingen jeglicher Art.",
+      "Diese Zukunft wollen wir mit 3D Former.de mitgestalten. Dabei kommt es auf Dich an.",
+      "Jede 3D Form die Du erfunden und als Datei erstellt hast kannst Du in unserem 3D Katalog zeigen und anderen anbieten.",
+      "Mehr noch! Du hast einen 3D Drucker in Betrieb und siehst Dich in der Lage noch Leerzeiten des Druckers zu nutzen um 3D Formen aus dem Katalog zu drucken?",
+      "",
+      "Dann melde Dich einfach kostenfrei an und erstelle einen Eintrag mit Deinen 3D Formen!",
+      "Jede 3D Form kannst Du dann als Download anbieten und / oder auch direkt für Interessenten ausdrucken.",
+      "",
+      "Sofern Du „nur“ einen 3D Drucker in unser Portal einbringen möchtest, kannst Du diesen ebenfalls in einem Account anmelden und unserem Netzwerk von 3D Druckern anschließen.",
+      "Mit Blick auf die Leistung deines 3D Drucker wählst Du dann bereits eingetragene 3D Formen aus dem Katalog aus und bestimmst einen Preis für den Ausdruck.",
+      "Sofern dann aus dem Katalog ein Kunde einen Druckauftrag starten möchte kann er ggf. auf dein Angebot zurückkommen und Dich mit einem konkreten Druckauftrag einer 3D Form anfragen und buchen.",
+      "",
+      "In letzter Zeit nun sind Geräte auf dem Markt die 3D Drucken auch für den Hausgebrauch interessant machen.",
+      "Diese Geräte funktionieren zumeist nach dem FDM Verfahren.",
+      "Bei dieser Technologie werden verschiedene Kunststoff geschmolzen und schichtweise aufgebaut.",
+      "Hast Du einen 3D Drucker bereits in Betrieb oder planst die Anschaffung eines 3D Druckers.",
+      "Dann werden unser Partner und melde Dein Drucker bei uns an und erhalte Druckaufträge aus dem 3D Formen Katalog."
+    ]
+  },
+  "reality": {
+    "title": "Wirklichkeit",
+    "content": [
+      "Die Rohstoffe für den 3D-Druck lassen sich deutlich leichter lagern und transportieren.",
+      "Ob Prototyp oder serielle Produktion. Es werden aktuell die Gegenstände gedruckt die auch tatsächlich gebraucht werden.",
+      "Lange Lagerzeiten oder überflüssige  Produktionen fallen weg.",
+      "3D Drucker sind nun schon seit einigen Jahren im Einsatz.",
+      "Vornehmlich in der Industrie verwendet, können die 3D Drucker effizient Einzelbauteilen und Kleinserien anfertigen.",
+      "Dabei werden vornehmlich Techniken wie das Laserbrennen (sintern) und Laserschmelzen eingesetzt.",
+      "",
+      "Bei diesen Anfertigungen werden dünne Schichten von Metall- oder Keramik-Pulver zusammengeführt oder verschiedene Formen von flüssigem Kunststoff durch den Laser schichtweise ausgehärtet.",
+      "",
+      "In letzter Zeit nun sind Geräte auf dem Markt die 3D Drucken auch für den Hausgebrauch interessant machen.",
+      "Diese Geräte funktionieren zumeist nach dem FDM Verfahren.",
+      "Bei dieser Technologie werden verschiedene Kunststoff geschmolzen und schichtweise aufgebaut.",
+      "Hast Du einen 3D Drucker bereits in Betrieb oder planst die Anschaffung eines 3D Druckers. Dann werden unser Partner und melde Dein Drucker bei uns an und erhalte Druckaufträge aus dem 3D Formen Katalog."
+    ]
+  },
+  "impressum": {
+    "title": "Impressum",
+    "nico": {
+      "name": "Nico Berndt",
+      "phone": "+49 (0)176 642 63 908",
+      "email": "berndt@3dformer.net"
+    },
+    "pepe": {
+      "name": "Pepe Becker",
+      "phone": "+49 (0)176 433 13 884",
+      "email": "pepe@3dformer.net"
+    },
+    "street": "Corinerstraße 64 10435 Berlin"
+  },
+  "contact": {
+    "title": "Kontakt"
+  },
+  "terms": {
+    "title": "Allgemeine Geschäftsbedingungen für Vermittlertätigkeit von 3D Objekten und 3D Druckaufträgen",
+    "content": [
+      "3D Former.de vermittelt im Namen des Interessenten die verzeichneten 3D Objekte an den Anbieter von 3D Druckerinhaber oder vermittelt 3D Modelle als Downlaod.",
+      "",
+      "1. Druckauftrag Anfragen",
+      "",
+      "1.1 Jeder Interessent kann sich aus dem 3D Formen Katalog Daten für 3D Objekt downloaden und oder drucken lassen.",
+      "",
+      "Aufträge für 3D Drucke können nur unbeschränkt geschäftsfähige natürliche Personen über 18 Jahren, juristische Personen oder Handelsgesellschaften vornehmen.",
+      "",
+      "2. Leistungen und Preise",
+      "",
+      "2.1 3D Former.de haftet nicht für Auskünfte und Leistungen der Anbieter im 3D Formen Katalog, sondern nur für eigene Vermittlungsfehler.",
+      "Für die Richtigkeit der Angaben, Objektbeschreibung in Text und Bild und Preis ist ausschließlich der 3D Formenverkäufer (Accountinhaber) verantwortlich und haftbar.",
+      "Die Haftung für leichte Fahrlässigkeit wird ausgeschlossen.",
+      "",
+      "3. Sonstige Bestimmungen",
+      "",
+      "3.2 Für Rechtsstreitigkeiten aus dem vorliegenden 3D Druckauftrag findet ausschließlich das Recht der Bundesrepublik Deutschland Anwendung.",
+      "",
+      "3.3 Der Auftraggeber kann 3D Former.de nur an deren Sitz verklagen. In diesen Fällen ist der Sitz - Amtsgericht Berlin - maßgebend.",
+      "",
+      "Berlin, den 01.8.2015",
+      "",
+      "3D Former.net"
+    ]
+  }
+}

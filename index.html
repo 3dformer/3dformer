@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Redirect to HTTPS -->
+    <script type="text/javascript">
+			var host = "3dformer.net"
+			if ((host == window.location.host) && (window.location.protocol != "https:"))
+				window.location.protocol = "https"
+		</script>
+    <!-- Basic -->
     <meta charset="utf-8">
+    <meta name="description" content="The personal website of Pepe Becker">
+    <meta name="keywords" content="Pepe Becker, Nico Berndt, 3D Printing, 3D Printer, 3D Forms, 3D Models">
     <title>3D Former</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://3dformer.net/">
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="plugins/bootstrap-social-gh-pages/bootstrap-social.css">
   </head>
   <body>
     <div id="root"></div>
+    <script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
     <script src="bundle.js"></script>
   </body>
 </html>

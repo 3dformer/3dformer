@@ -1,0 +1,72 @@
+{
+  "debug": {
+    "coming": "Próximamente"
+  },
+  "navigation": {
+    "home": "Home",
+    "signin": "Iniciar sesión",
+    "signup": "Registrar",
+    "idea": "Idea",
+    "reality": "Realidad",
+    "impressum": "Noticia Legal",
+    "contact": "Contacto",
+    "terms": "Términos & Condiciones"
+  },
+  "home": {
+    "header": "Búsqueda e impresión 3D",
+    "search": "Búsqueda"
+  },
+  "login": {
+    "title": "Iniciar sesión con nombre de usuario y contraseña",
+    "google": "Inicia sesión con Google",
+    "facebook": "Inicia sesión con Facebook",
+    "twitter": "Inicia sesión con Twitter",
+    "github": "Inicia sesión con GitHub",
+    "username": "Nombre de usuario",
+    "password": "Contraseña",
+    "signin": "Iniciar Sesión",
+    "noAccount": "No tiene una cuenta?",
+    "signupNow": "regístrate ahora gratis"
+  },
+  "idea": {
+    "title": "Idea",
+    "content": [
+      "El contenido todavía no ha sido traducido.",
+      "",
+      "Consulte la versión alemana de esta página."
+    ]
+  },
+  "reality": {
+    "title": "Realidad",
+    "content": [
+      "El contenido todavía no ha sido traducido.",
+      "",
+      "Consulte la versión alemana de esta página."
+    ]
+  },
+  "impressum": {
+    "title": "Noticia Legal",
+    "nico": {
+      "name": "Nico Berndt",
+      "phone": "+49 (0)176 642 63 908",
+      "email": "berndt@3dformer.net"
+    },
+    "pepe": {
+      "name": "Pepe Becker",
+      "phone": "+49 (0)176 433 13 884",
+      "email": "pepe@3dformer.net"
+    },
+    "street": "Corinerstraße 64 10435 Berlin"
+  },
+  "contact": {
+    "title": "Contacto"
+  },
+  "terms": {
+    "title": "Términos & Condiciones",
+    "content": [
+      "El contenido todavía no ha sido traducido.",
+      "",
+      "Consulte la versión alemana de esta página."
+    ]
+  }
+}

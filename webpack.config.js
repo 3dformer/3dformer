@@ -1,26 +1,40 @@
-// const production = process.argv[2] === '--production'
-const production = process.env.NODE_ENV === 'production'
+const production = process.argv[2] === '--production'
 const webpack = require('webpack')
 
 module.exports = {
-  // context: __dirname,
-  // devtool: debug ? 'inline-sourcemap' : null,
-  entry: './index.js',
+  entry: './index.jsx',
 
   output: {
-    path: __dirname,
-    filename: 'bundle.js',
-    publicPath: '/'
+    filename: 'bundle.js'
   },
 
   module: {
     loaders: [
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         exclude: /node_modules/,
-        loader: 'babel-loader?presets[]=es2015&presets[]=react'
+        loader: 'babel',
+        query: {
+          presets: ['es2015', 'react']
+        }
+      },
+      {
+        test: /\.json$/,
+        loader: 'json'
+      },
+      {
+        test: /\.styl$/,
+        loader: 'style!css!stylus?resolve url'
+      },
+      {
+        test: /\.(png|jpg)$/,
+        loader: 'file-loader?name=./images/[name].[ext]'
       }
     ]
+  },
+
+  resolve: {
+    extensions: ['', '.js', '.jsx'],
   },
 
   plugins: production ? [

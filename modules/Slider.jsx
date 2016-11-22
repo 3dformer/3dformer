@@ -26,6 +26,7 @@ export default class Slider extends React.Component {
       imageMarginLeft: 0,
       imagePauseTime: 0
     }
+    this.mounted = false
     this.currentIndex = 0
     this.sliderImages = [
       this.getNextImage(),
@@ -76,6 +77,8 @@ export default class Slider extends React.Component {
     return imgPath
   }
   update(time) {
+    if (this.mounted === false) return
+
     requestAnimationFrame(this.update.bind(this))
 
     let imageMarginLeft = this.state.imageMarginLeft
@@ -97,7 +100,10 @@ export default class Slider extends React.Component {
     this.setState({imageMarginLeft})
   }
   componentDidMount() {
-    this.setState(this.props)
+    this.mounted = true
     requestAnimationFrame(this.update.bind(this))
+  }
+  componentWillUnmount() {
+    this.mounted = false
   }
 }
