@@ -22,11 +22,27 @@
     "facebook": "Sign in with Facebook",
     "twitter": "Sign in with Twitter",
     "github": "Sign in with GitHub",
-    "username": "Username",
+    "email": "Email Address",
     "password": "Password",
     "signin": "Sign In",
     "noAccount": "Dont have an account?",
     "signupNow": "sign up now for free"
+  },
+  "register": {
+    "title": "Sign Up",
+    "username": "Username",
+    "email": "Email Address",
+    "password": "Create Password",
+    "password2": "Confirm Password",
+    "signup": "Sign Up",
+    "hasAccount": "Already have an account?",
+    "signinNow": "sign in now"
+  },
+  "profile": {
+    "title": "Profile",
+    "hello": "Hello",
+    "signout": "Sign Out",
+    "delete": "Delete Account"
   },
   "idea": {
     "title": "Idea",

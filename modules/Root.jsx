@@ -13,7 +13,7 @@ export default React.createClass({
         <Header local={local} language={language}/>
         <div id='content'>
           {
-            React.cloneElement(this.props.children, {local})
+            React.cloneElement(this.props.children, {local, language})
           }
         </div>
         <Footer local={local} language={language}/>

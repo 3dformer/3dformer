@@ -1,7 +1,28 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 export default React.createClass({
+  signin() {
+    const email = this.refs.email.value
+    const password = this.refs.password.value
+    const signedIn = firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
+      console.error(error.code, error.message);
+    });
+
+    const lang = this.props.language
+
+    signedIn.then((user) => {
+      if (user) {
+        console.log('User sucessfully signed in')
+        localStorage.setItem('user', JSON.stringify(user))
+        window.location.hash = lang + '/profile'
+      }
+    }, (error) => {
+      console.log('Error while creating user:', error)
+    })
+  },
   render() {
+    const lang = this.props.language
     const local = this.props.local.login
     const debug = this.props.local.debug
 
@@ -33,14 +54,17 @@ export default React.createClass({
 
           <div id='login-right'>
             <p>{local.title}</p>
-            <p><input className='form-control' type='email' placeholder={local.username}/></p>
-            <p><input className='form-control' type='password' placeholder={local.password}/></p>
-            <p><a className="btn btn-primary">{local.signin}</a></p>
+            <p><input className='form-control' ref='email' type='email' placeholder={local.email}/></p>
+            <p><input className='form-control' ref='password' type='password' placeholder={local.password}/></p>
+            <p><button className="btn btn-primary" onClick={this.signin}>{local.signin}</button></p>
             <br/>
-            <p>{local.noAccount} <a>{local.signupNow}</a></p>
+            <p>{local.noAccount} <Link to={'/' + lang + '/register'}>{local.signupNow}</Link></p>
           </div>
         </div>
       </div>
     )
+  },
+  componentDidMount() {
+    this.refs.email.focus();
   }
 })
