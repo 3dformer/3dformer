@@ -22,11 +22,28 @@
     "facebook": "Iniciar sesión con Facebook",
     "twitter": "Iniciar sesión con Twitter",
     "github": "Iniciar sesión con GitHub",
-    "username": "Nombre de usuario",
+    "email": "Correo Electrónico",
     "password": "Contraseña",
     "signin": "Iniciar Sesión",
     "noAccount": "No tiene una cuenta?",
     "signupNow": "regístrate ahora gratis"
+  },
+  "register": {
+    "title": "Regístrate",
+    "username": "Nombre de Usuario",
+    "email": "Correo Electrónico",
+    "password": "Crear Contraseña",
+    "password2": "Confirmar Contraseña",
+    "signup": "Regístrate",
+    "hasAccount": "Ya tiene una cuenta?",
+    "signinNow": "inicia sesión ahora"
+  },
+  "profile": {
+    "account": "Cuenta",
+    "title": "Perfil",
+    "hello": "Hola",
+    "signout": "Cerrar Sesión",
+    "delete": "Cerrar Cuenta"
   },
   "idea": {
     "title": "Idea",

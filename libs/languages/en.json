@@ -39,6 +39,7 @@
     "signinNow": "sign in now"
   },
   "profile": {
+    "account": "Account",
     "title": "Profile",
     "hello": "Hello",
     "signout": "Sign Out",

@@ -22,11 +22,28 @@
     "facebook": "Mit Facebook Anmelden",
     "twitter": "Mit Twitter Anmelden",
     "github": "Mit GitHub Anmelden",
-    "username": "Benutzername",
+    "email": "Email Adresse",
     "password": "Passwort",
     "signin": "Anmelden",
     "noAccount": "Du hast noch keinen Account?",
     "signupNow": "jetzt kostenlos registrieren"
+  },
+  "register": {
+    "title": "Registrieren",
+    "username": "Benutzername",
+    "email": "Email Adresse",
+    "password": "Passwort Erstellen",
+    "password2": "Passwort Bestätigen",
+    "signup": "Anmelden",
+    "hasAccount": "Du hast schon einen Account?",
+    "signinNow": "jetzt anmelden"
+  },
+  "profile": {
+    "account": "Account",
+    "title": "Profil",
+    "hello": "Hallo",
+    "signout": "Abmelden",
+    "delete": "Account Löschen"
   },
   "idea": {
     "title": "Idee",
